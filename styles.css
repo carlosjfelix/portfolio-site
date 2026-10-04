@@ -96,10 +96,12 @@ img, video { max-width: 100%; display: block; }
   display: grid; grid-template-columns: 240px 1fr; gap: clamp(28px, 4vw, 44px);
   align-items: center;
 }
-.profile-card__photo { width: 100%; }
+.profile-card__photo {
+  width: 100%; aspect-ratio: 1 / 1; overflow: hidden;
+  border-radius: 50%; border: 1px solid var(--border);
+}
 .profile-card__photo img {
-  width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
-  border-radius: var(--radius); border: 1px solid var(--border);
+  width: 100%; height: 100%; object-fit: cover; object-position: center 25%;
 }
 .profile-card__photo-placeholder {
   width: 100%; aspect-ratio: 1 / 1; border-radius: 50%;
