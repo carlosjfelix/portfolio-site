@@ -34,7 +34,7 @@
 
   // --- Scroll reveal ---
   var revealEls = document.querySelectorAll(
-    ".section__title, .about__grid, .stat, .skill-card, .tl-item, .gallery__card, .edu-card, .companies"
+    ".section__title, .about__text, .stat, .skill-card, .tl-item, .gallery__card, .edu-card"
   );
   revealEls.forEach(function (el) { el.classList.add("reveal"); });
 

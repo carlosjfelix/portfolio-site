@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Carlos J. Felix Velez — Automation &amp; Robotics Engineer</title>
+  <title>Carlos Felix — Automation &amp; Robotics Engineer</title>
   <meta name="description" content="Portfolio of Carlos J. Felix Velez, Automation &amp; Robotics Engineer specializing in manufacturing automation, robotics, and controls." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -32,20 +32,53 @@
 
   <!-- ===== Hero ===== -->
   <section class="hero" id="hero">
-    <div class="container hero__inner">
-      <p class="hero__eyebrow">Automation &amp; Robotics Engineer</p>
-      <h1 class="hero__title">Carlos J. Felix Velez</h1>
-      <p class="hero__subtitle">
-        I design and deploy manufacturing automation, robotics, and controls systems
-        &mdash; from ideation to site acceptance testing &mdash; across multi-site operations.
-      </p>
-      <div class="hero__meta">
-        <span class="chip">Advanced Manufacturing</span>
-        <span class="chip">Robotics &amp; Controls</span>
-      </div>
-      <div class="hero__actions">
-        <a class="btn btn--primary" href="#projects">View Projects</a>
-        <a class="btn btn--ghost" href="#contact">Get in Touch</a>
+    <div class="container">
+      <div class="profile-card">
+        <div class="profile-card__photo">
+          <!-- Replace this placeholder with your headshot:
+               <img src="assets/profile.jpg" alt="Carlos J. Felix Velez" /> -->
+          <div class="profile-card__photo-placeholder" aria-hidden="true">
+            <span>Your photo</span>
+          </div>
+        </div>
+        <div class="profile-card__body">
+          <h1 class="hero__title">Carlos Felix</h1>
+          <p class="hero__eyebrow">Automation Lead &amp; Robotics Engineer in Advanced Manufacturing</p>
+          <p class="profile-card__degree">Master's in Mechanical Engineering</p>
+          <dl class="profile-card__facts">
+            <div class="profile-card__fact">
+              <dt>Experience</dt>
+              <dd>8+ Years</dd>
+            </div>
+            <div class="profile-card__fact">
+              <dt>Specialty</dt>
+              <dd>Robotic Systems Design &amp; Automation Strategy Development</dd>
+            </div>
+            <div class="profile-card__fact">
+              <dt>Worked At</dt>
+              <dd class="profile-card__links">
+                <a class="profile-card__link--pentair" href="https://www.pentair.com" target="_blank" rel="noopener">Pentair</a>
+                <a class="profile-card__link--corning" href="https://www.corning.com" target="_blank" rel="noopener">Corning</a>
+                <a class="profile-card__link--boeing" href="https://www.boeing.com" target="_blank" rel="noopener">Boeing</a>
+              </dd>
+            </div>
+            <div class="profile-card__fact">
+              <dt>Languages</dt>
+              <dd>Bilingual (English/Spanish)</dd>
+            </div>
+          </dl>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="assets/CarlosFelixResume2026.pdf" target="_blank" rel="noopener">
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6H6Zm7 1.5L18.5 9H13V3.5ZM8 13h8v2H8v-2Zm0 4h5v2H8v-2Z"/></svg>
+              Resume
+            </a>
+            <a class="btn btn--ghost" href="#contact">
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
+              Get in Touch
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -53,50 +86,39 @@
   <!-- ===== About ===== -->
   <section class="section" id="about">
     <div class="container">
-      <h2 class="section__title">About</h2>
-      <div class="about__grid">
-        <div class="about__text">
-          <p>
-            I'm an Automation &amp; Robotics Engineer with a background spanning advanced
-            manufacturing, controls, and mechanical systems design. I lead automation
-            strategy, system design, and project execution across multiple manufacturing
-            sites, building standardized deployment frameworks that take teams from
-            ideation through site acceptance testing.
-          </p>
-          <p>
-            My experience ranges from hands-on robot programming and vision systems to
-            cross-functional leadership &mdash; shaping multi-year automation roadmaps,
-            aligning budgets, and driving standardization. I've programmed FANUC and ABB
-            robots, led full CQV project lifecycles, and developed simulation-driven
-            engineering solutions for aerospace and industrial applications.
-          </p>
+      <h2 class="section__title">About Me</h2>
+      <div class="stats">
+        <div class="stat">
+          <span class="stat__num">6</span>
+          <span class="stat__label">Manufacturing sites supported</span>
         </div>
-        <div class="stats">
-          <div class="stat">
-            <span class="stat__num">6</span>
-            <span class="stat__label">Manufacturing sites supported</span>
-          </div>
-          <div class="stat">
-            <span class="stat__num">$1M+</span>
-            <span class="stat__label">Projected annual savings</span>
-          </div>
-          <div class="stat">
-            <span class="stat__num">50%</span>
-            <span class="stat__label">Downtime reduction achieved</span>
-          </div>
-          <div class="stat">
-            <span class="stat__num">$925k</span>
-            <span class="stat__label">Robotics research led as PI</span>
-          </div>
+        <div class="stat">
+          <span class="stat__num">$1M+</span>
+          <span class="stat__label">Projected annual savings</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">50%</span>
+          <span class="stat__label">Downtime reduction achieved</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">$925k</span>
+          <span class="stat__label">Robotics research led as PI</span>
         </div>
       </div>
-      <div class="companies">
-        <span class="companies__label">Experience with</span>
-        <ul class="companies__list">
-          <li>Pentair</li>
-          <li>Corning</li>
-          <li>Boeing</li>
-        </ul>
+      <div class="about__text">
+        <p>
+          I'm an Automation &amp; Robotics Engineer with a background in advanced manufacturing 
+          spanning across the aerospace, life sciences, and consumer product industries. I've 
+          led automation projects and developed strategies to scale for multiple manufacturing sites.
+          strategy, system design, and project execution across multiple manufacturing
+          sites, building standardized deployment frameworks that take teams from
+          ideation through site acceptance testing.
+        </p>
+        <p>
+          My experience ranges from hands-on robot programming and vision systems to
+          cross-functional leadership &mdash; shaping multi-year automation roadmaps,
+          aligning budgets, and driving standardization.
+        </p>
       </div>
     </div>
   </section>
@@ -107,7 +129,7 @@
       <h2 class="section__title">Skills &amp; Technologies</h2>
       <div class="skills__grid">
         <div class="skill-card">
-          <h3>Programming</h3>
+          <h3>Programming Languages</h3>
           <ul class="tags">
             <li>Python</li><li>C++</li><li>PLC (Rockwell)</li><li>MATLAB</li>
           </ul>
